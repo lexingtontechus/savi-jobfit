@@ -19,7 +19,7 @@ Use it in 2 steps:
 ```html
 <!-- Insert makerbadge.js (download or use ☁️cloud version) -->
 
-<script type="text/javascript" src="https://makerbadge.s3.amazonaws.com/blmbadge.js"></script>
+<script type="text/javascript" src="https://savi-jobfit.netlify.app/savijobfitbadge.js"></script>
 
 <!-- Initialise MakerBadge with options -->
     
