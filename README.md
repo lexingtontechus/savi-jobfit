@@ -1,4 +1,4 @@
-# BLMBadge
+# savijobfitBadge
 ### An open-source badge to put your mark on every project.
 
 <img src="https://www.savivets.org/wp-content/uploads/2020/07/savijobfit.png" width="600" style="
@@ -10,6 +10,8 @@
 This project is a fork of MakerBadge - customised for SAVI #jobfit
 
 ---
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bca76b4b-b052-4950-a678-c0f7738f3861/deploy-status)](https://app.netlify.com/sites/savi-jobfit/deploys)
 
 # How to use SAVI JobFit Badge/MakerBadge:
 Use it in 2 steps:
@@ -27,9 +29,9 @@ Use it in 2 steps:
   savijobfitBadge.init({
        layout:1, 
        theme:'dark', 
-       promoText : 'Hire Our Veterans '+String.fromCodePoint(0x2192),
+       promoText : 'Support Our Veterans '+String.fromCodePoint(0x2192),
        promoLink : 'https://savivets.org/jobfit',
-       message : 'Hire Our Veterans.',
+       message : 'Hire A Veteran.',
        title : '#jobfit',
        imageAlt: "SAVI JobFit"
 })
@@ -45,7 +47,7 @@ You can customise the values after each colon (e.g. layout:2 - change the 2 to 1
 * promoURL: a string (url) to a donation page.
 * message: string - any short message.
 * title: string - The title of your badge
-* imageAlt: string - Alt text for your image - the default is "Black Lives Matter Badge"
+* imageAlt: string - Alt text for your image - the default is ""
 
 ---
 
