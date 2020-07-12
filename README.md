@@ -1,17 +1,17 @@
 # BLMBadge
 ### An open-source badge to put your mark on every project.
 
-<img src="https://ucarecdn.com/17cf0e47-7c5f-4559-972b-d2448aee1768/image.png" width="600" style="
+<img src="https://www.savivets.org/wp-content/uploads/2020/07/savijobfit.png" width="600" style="
     margin: 5rem auto;
     display: block;
     border: 4px solid black;
     border-radius: 5px;"/>
     
-This project is a fork of MakerBadge - customised for #BLM
+This project is a fork of MakerBadge - customised for SAVI #jobfit
 
 ---
 
-# How to use BLMBadge/MakerBadge:
+# How to use SAVI JobFit Badge/MakerBadge:
 Use it in 2 steps:
 
 ## 1. Get your badge:
@@ -24,14 +24,14 @@ Use it in 2 steps:
 <!-- Initialise MakerBadge with options -->
     
 <script>
-  BLMBadge.init({
+  savijobfitBadge.init({
        layout:1, 
        theme:'dark', 
-       promoText : 'Send a donation '+String.fromCodePoint(0x2192),
-       promoLink : 'https://minnesotafreedomfund.org/',
-       message : 'To be silent is to be complicit. Black lives matter.',
-       title : '#BlackLivesMatter',
-       imageAlt: "Black Lives Matter Badge"
+       promoText : 'Hire Our Veterans '+String.fromCodePoint(0x2192),
+       promoLink : 'https://savivets.org/jobfit',
+       message : 'Hire Our Veterans.',
+       title : '#jobfit',
+       imageAlt: "SAVI JobFit"
 })
 </script>
 ```
