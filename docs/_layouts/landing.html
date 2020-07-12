@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="body">
+    <!-- <header class="header u-text-center">
+      <h1 class="landing-header">{{ page.title }}</h1>
+    </header> -->
+    <main class="main">
+      {{ content }}
+    </main>
+    <footer class="footer">
+      {{ page.footer }}
+    </footer>
+    <div class="landing-arrow">
+        <svg width="55" height="77" xmlns="http://www.w3.org/2000/svg"><path d="M25.9108 73.1046L3.8155 46.3957s-3.3487-3.1659.2851-3.1659h12.4515v-5.425V4.362s-.4972-1.8937 2.369-1.8937h17.5256c2.0545 0 2.0033 1.5793 2.0033 1.5793v38.3853h11.501c4.4234 0 1.0894 3.3267 1.0894 3.3267S32.2426 70.7064 29.6177 73.3312c-1.901 1.901-3.7069-.2266-3.7069-.2266z" fill="#FFF" fill-rule="nonzero" stroke="#000" stroke-width="4"/></svg>
+    </div>
+    <script src="js/makerbadge.js"></script>
+    <script>
+      MakerBadge.init({
+        id: '309280',
+        position: 'right', //left or right
+        theme: 3,
+        name:'Grame', //I wanted to just use my first name
+        twitter: '',
+        customHTML:'<div style="padding:5px;"><a  style="text-decoration:underline;color:#d5425c;font-size:14px;" href="http://twitter.com/graeme_fulton">Follow me on Twitter</a></div>'
+        // pic:'https://pbs.twimg.com/profile_images/1032372310248972288/DWnViIum_400x400.jpg',//little profile pic used in theme 2
+      }, function(){
+        //this is the callback function, called after makerbadge has loaded
+        const badge = document.querySelector('.maker-badge');
+        if (badge) {
+          const arrow = document.querySelector('.landing-arrow');
+          badge.appendChild(arrow);
+          arrow.style = 'display:block;';
+        }
+      });
+    </script>
+  </body>
+</html>
